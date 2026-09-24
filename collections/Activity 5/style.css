@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+   /* background: linear-gradient(-45deg, rgb(151, 206, 151), rgb(143, 226, 143), rgb(32, 216, 32), green); */
+   margin: 0;
+}
+h2 {
+    font-size: 100px;
+    color: yellow;
+}
+p {
+    color: white;
+}
+
+.pad {
+    margin: 30px;
+}
+header {
+    z-index: 10000;
+    top: 0;
+    position: sticky;
+}
+nav {
+    background-image: url(Backg.jpg);
+    display: flex;
+    justify-content: space-between;
+    background-color: #1b4332;
+    padding: 15px 30px;
+    font-size: 20px;
+    position: sticky;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+.nav-links a:hover {
+    color: lime;
+    text-decoration: double;
+}
+.section1 {
+    background-color: yellowgreen;
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+}
+.section1 p {
+    color: black;
+    font-size: 20px;
+}
+.aside1 {
+    margin: 0;
+}
+.section1 img {
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+.section2 img {
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.section2 {
+    background-color: rgb(83, 170, 83);
+    margin: 0;
+    padding: 20px ;
+    display: flex;
+}
+
+.section3 {
+    background-color: #00693E;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.card {
+    background-color: #009150;
+    border: 10px solid #4A5D23;
+    border-radius: 10px;
+    transition: transform 0.3;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.card:hover {   
+    transform: translateY(10px);
+}
+.card img {
+    height: 350px;
+    padding: 10;
+}
+
+.section4 {
+    background-color: #014421;
+    padding: 20px;
+    color: white ;
+}
+footer {
+    background-color: #444C38;
+    text-align: center;
+    padding: 10px;
+    color: yellow;
+}
+button {
+    border-radius: 10px;
+    background-color: #009150;
+    height: 30px;
+    width: 150px;
+    color: wheat;
+    align-items: center;
+}
+input {
+    border-radius: 10px;
+    border: 5px solid greenyellow;
+}

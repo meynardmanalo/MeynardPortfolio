@@ -1,0 +1,185 @@
+    body {
+        background-color: rgb(98, 139, 98);
+        font-family: 'Courier New', Courier, monospace;
+    }
+    header {
+        text-align: center;
+        background-color: rgb(91, 168, 56);
+        padding: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: aliceblue;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: #1b4332;
+        padding: 15px 30px;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+    }
+    .nav-links a {
+        color: white;
+    }
+    .nav-links a:hover {
+        color: #74c69d
+    }
+
+    footer {
+        background-color: black;
+        color: aliceblue;
+        padding: 10px;
+       
+    }
+
+    .sect {
+        background-color: lightgreen;
+        padding: 10px;
+        gap: 20px;
+        display: flex;
+        flex: 5;
+        align-items: center;
+    }
+
+    Table Td {
+        background-color: aquamarine;
+        text-align: center;
+    }
+
+    Table Th {
+        background-color: rgb(83, 192, 255);
+    }
+    #tr1{
+        background-color: yellow;
+    }
+    .button {
+        text-shadow: 50px;
+        border-radius: 10px;
+        background-color: aqua;
+        animation: rbgtq 1s infinite;
+    }
+    @keyframes rbgtq {
+        0% {background-color: red ;};
+    }
+
+    /*Home - Display flex sa home
+     semantic blocks 
+     
+     Registration - Application Form
+     
+     Grades - Table 6 rows 5 columns
+
+     Profile - design 50% radius
+
+     */
+
+    /* HOME STYLE */
+    .grid {
+        display: flex;
+        flex: 10;
+        gap: 20px;
+        padding: 100px;
+        flex-wrap: wrap;
+    }
+    .card {
+        background-color: white;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .box{
+        background-color: wheat;
+        border: 10px solid #74c69d;
+        border-radius: 10px;
+        padding: 15px; 
+        transition: transform 0.3s;
+        height: 100px;
+        width: 250px;
+        transition: transform 0.3s;
+    }
+    .box:hover {
+        transform: translateY(-8px);
+        border-style: outset;
+    }
+
+    /* FORM APPLICATION STYLE */
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        padding: 8px;  
+        border: 3px solid #40916c;
+    }
+    label {
+        font-size: 20px;
+    }
+    input button {
+                border-radius: 10px;
+        height: 40px;
+        width: 100px;
+        background-color: #74c69d;
+    }
+    select {
+        width: 200px;
+        border-radius: 5px;
+        height: 30px;
+        background-color:#74c69d;
+    }
+    .btn1 {
+        border-radius: 10px;
+        height: 40px;
+        width: 100px;
+        background-color: #74c69d;
+    }
+
+    /* HOME STYLE */       
+
+    .sect2 {
+        background-cOlor: lightblue;
+        padding: 10px;
+        display: flex;
+        flex: 3;
+        gap: 20px;
+    }
+    .sect3 {
+        background-color: lightgreen;
+        padding: 10px;
+        display: flex;
+        flex: 2;
+        gap: 20px;
+        text-align: start;
+        border: 10px solid forestgreen;
+    }
+
+    .aside1{
+        background-cOlor: green;
+        padding: 10px;
+        display: flex;
+        flex: 1;
+    }
+    .aside2{
+        background-cOlor: rgb(103, 134, 29);
+        padding: 10px;
+        display: flex;
+        flex: 1;
+        box-shadow: #1b4332;
+        color: white;
+        border: 10px solid rgba(51, 85, 0, 0.651);
+    }
+    .div1 {
+        border: 10px solid burlywood;
+        justify-content: center;
+    }
+    img {
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+    }
